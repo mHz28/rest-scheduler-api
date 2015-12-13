@@ -1,0 +1,23 @@
+{
+    "name": "sparkphp/project",
+    "description": "Sample REST Scheduler API.",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "sparkphp/spark": "^0.7",
+        "sparkphp/data": "*.*",
+        "sparkphp/auth": "*.*",
+        "fzaninotto/faker": "^1.5",
+        "firebase/php-jwt" : "*.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Spark\\Project\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "EKW"
+        }
+    ]
+}
