@@ -129,11 +129,11 @@ class Utilities
         $userList = array(
             array(
                 Constants::ROLE => Constants::MANAGER,
-                Constants::MAXUSERS => 1
+                Constants::MAXUSERS => Constants::MAX_MANAGERS
             ),
             array(
                 Constants::ROLE => Constants::EMPLOYEE,
-                Constants::MAXUSERS => 1
+                Constants::MAXUSERS => Constants::MAX_EMPLOYEES
             )
         );
         

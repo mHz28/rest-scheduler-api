@@ -4,6 +4,8 @@ namespace Spark\Project\Utils;
 
 class Constants
 {
+    const MAX_MANAGERS = 1;
+    const MAX_EMPLOYEES = 1;
     const DATA = "data";
 	const EMPTYSTR = "";
 	const ROLE = "role";
