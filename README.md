@@ -12,3 +12,5 @@ Manager token : [GET] /manager/sample
 
 Current default data has 1 Manager and 1 Employee. Counts can be increased by modifying Constants::MAX_EMPLOYEES and Constants::MAX_MANAGERS.
 
+to start Server: 
+php -S localhost:8000 -t web/
