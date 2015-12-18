@@ -14,7 +14,7 @@ use Spark\Auth\Jwt\FirebaseParser;
 use Spark\Auth\Credentials\ExtractorInterface;
 use Spark\Auth\AdapterInterface;
 use Spark\Project\Model\Shift;
-require './vendor/fzaninotto/faker/src/autoload.php';
+require '../vendor/fzaninotto/faker/src/autoload.php';
 
 class Utilities
 {

@@ -42,7 +42,7 @@ class SampleManager implements DomainInterface
      */
     public function __invoke(array $input)
     {
-        return $this->payload->withStatus(PayloadInterface::OK)->withOutput(array(
+        return $this->payload->withStatus(PayloadInterface::OK)->withOutput(array("token"=>
             $this->token
         ));
     }
